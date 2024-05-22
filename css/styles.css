@@ -14,14 +14,14 @@ h1{
 
 form{
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     /*gap: .5rem;*/
     width: 700px;
     margin: 0 auto;
     padding: 10px;
 
     background-color: gray;
-    border-radius: 5px;
+    border-radius: 10px;
 
     align-items: center;
 }
@@ -32,8 +32,16 @@ label{
     padding: 5px;
 }
 
-input, select, textarea{
-    width: 90%;
+input, textarea{
+    width: 600px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+select{
+    width: 618px;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -48,11 +56,12 @@ button{
     font-size: 1.1rem;
     cursor: pointer;
     margin-top: 10px;
+    width: 75%;
 }
 
 button:hover{
-    background-color: black;
+    background-color: #696969;
     border: 1px white solid;
 
-    transition: background-color 0.8s;
+    transition: background-color 0.5s;
 }
